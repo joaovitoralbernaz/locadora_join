@@ -2,7 +2,8 @@
     margin: 0px;
 }
 body{
-    background-color: rgb(255, 255, 255);
+    color: white;
+    background-color: #6f0ad4;
     position: relative;
     display: grid;
     grid-template-areas: 
@@ -11,18 +12,41 @@ body{
     "rodap rodap rodap";
 }
 header{
-    background-image: -moz-linear-gradient(30deg, #6F0AD4, #6F0AC1, #6F0AB2 );
+    margin: 1px;
+    background-color: #6F0AD4;
     grid-area: cabeca;
-    height: 200px;
+    height: 20ch;
+    width: 100%;
+}
+.subpages{
+    font-size: 35px;
+    position: absolute;
+    left: 40px;
+    top: 200px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    line-height: 50px;
+    font-style: oblique;
 }
 main{
     grid-area: princip;
+    color: white;
+}
+.text{
+    color: rgb(0, 0, 0);
+}
+.text:hover{
+    color: blueviolet;
+    transition: 0.4s;
 }
 footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
     position: absolute;
-    top: 600px;
+    padding: 3px;
     width: 100%;
-    height: 200px;
+    height: 180px;
     background-color: #6F0AD4;
     grid-area: rodap;
 }
@@ -41,12 +65,11 @@ footer{
     }
 }
 .logo{
-
-    position: relative;
     width: 100px;
     height: 100px;
-    
 }
+
+
     
 
 
