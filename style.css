@@ -1,4 +1,4 @@
-/* *{
+*{
     margin: 0px;
 }
 body{
@@ -11,7 +11,7 @@ body{
     "secund princip princip"
     "rodap rodap rodap";
 }
-.header_1{
+/*.header_1{
     grid-area: cabeca1;
     
 }
@@ -32,7 +32,7 @@ body{
     text-decoration: underline;
     line-height: 50px;
     font-style: oblique;
-}
+}*/
 main{
     grid-area: princip;
     color: white;
@@ -79,4 +79,3 @@ footer{
 
 
 
- */
