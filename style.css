@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0px;
 }
 body{
@@ -11,7 +11,11 @@ body{
     "secund princip princip"
     "rodap rodap rodap";
 }
-header{
+.header_1{
+    grid-area: cabeca1;
+    
+}
+.header_2{
     margin: 1px;
     background-color: #6F0AD4;
     grid-area: cabeca;
@@ -54,19 +58,20 @@ footer{
 @media only screen and (max-width: 400px){
     body{
         grid-template-areas: 
+        "cabeca1"
         "cabeca"
         "secund"
         "princip"
         "rodap";
-        grid-template-columns: auto;border: 2px ;
-        grid-template-rows: auto 200px auto auto;
+        grid-template-columns: auto;
+        grid-template-rows: 200px 100px auto auto 100px;
 
 
     }
 }
 .logo{
     width: 100px;
-    height: 100px;
+    height: 100px;  
 }
 
 
@@ -74,3 +79,4 @@ footer{
 
 
 
+ */
