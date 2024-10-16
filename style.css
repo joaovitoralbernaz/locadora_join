@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0px;
 }
 body{
@@ -72,6 +72,54 @@ footer{
 .logo{
     width: 100px;
     height: 100px;  
+}*/
+
+*{
+    margin: 0%
+}
+aside{
+    grid-area: aside;
+}
+aside img{
+    width: 100%;
+    height: 90%;    
+}
+header{
+    background-color: #6f0ad4;
+   grid-area: header;
+}
+nav a{
+    text-decoration: none;
+    color: white;  
+}
+nav{
+    margin: 0%;
+   naling-items: center;
+}
+nav li{
+   list-style: none;
+   display: inline;
+   margin: 10px;
+}
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #6f0ad0;
+    color: white;
+}
+body{
+    display: grid;
+    gap: 15px;
+    grid-template-areas:
+    "aside aside aside"
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    grid-template-columns:auto auto auto;
+    grid-template-rows:auto 70px auto auto;
 }
 
 
