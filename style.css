@@ -21,7 +21,7 @@ body{
     grid-area: cabeca;
     height: 20ch;
     width: 100%;
-}*/
+}
 .subpages{
     font-size: 35px;
     position: absolute;
@@ -72,7 +72,7 @@ footer{
 .logo{
     width: 100px;
     height: 100px;  
-}*/
+} */
 
 *{
     margin: 0%
