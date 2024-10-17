@@ -1,79 +1,3 @@
-/* *{
-    margin: 0px;
-}
-body{
-    color: white;
-    background-color: #6f0ad4;
-    position: relative;
-    display: grid;
-    grid-template-areas: 
-    "cabeca cabeca cabeca"
-    "secund princip princip"
-    "rodap rodap rodap";
-}
-/*.header_1{
-    grid-area: cabeca1;
-    
-}
-.header_2{
-    margin: 1px;
-    background-color: #6F0AD4;
-    grid-area: cabeca;
-    height: 20ch;
-    width: 100%;
-}
-.subpages{
-    font-size: 35px;
-    position: absolute;
-    left: 40px;
-    top: 200px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: underline;
-    line-height: 50px;
-    font-style: oblique;
-}
-main{
-    grid-area: princip;
-    color: white;
-}
-.text{
-    color: rgb(0, 0, 0);
-}
-.text:hover{
-    color: blueviolet;
-    transition: 0.4s;
-}
-footer{
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
-    position: absolute;
-    padding: 3px;
-    width: 100%;
-    height: 180px;
-    background-color: #6F0AD4;
-    grid-area: rodap;
-}
-
-@media only screen and (max-width: 400px){
-    body{
-        grid-template-areas: 
-        "cabeca1"
-        "cabeca"
-        "secund"
-        "princip"
-        "rodap";
-        grid-template-columns: auto;
-        grid-template-rows: 200px 100px auto auto 100px;
-
-
-    }
-}
-.logo{
-    width: 100px;
-    height: 100px;  
-} */
-
 *{
     padding: 0;
     margin: 0%;
@@ -85,7 +9,7 @@ aside{
 }
 aside img{
     width: 100%;
-    height: 90%;
+    height: 70%;
     margin: 0%;    
 }
 header{
@@ -128,8 +52,11 @@ p{
     text-align: center;
 }
 .galeria{
+    justify-content:center ;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 250px;
+    margin-right: 250px;
 
 }
 .botao{
@@ -141,7 +68,7 @@ p{
     text-decoration: none;
     color: rgb(255, 255, 255);
     margin-top: 20px;
-    padding: 10px;
+    padding: 5px;
     transition: 0.2s;
 }
 .box{
@@ -169,6 +96,10 @@ body{
     "footer footer footer";
     grid-template-columns:auto auto auto;
     grid-template-rows:auto 60px auto auto;
+}
+.quemsomos{
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 
