@@ -10,7 +10,7 @@ aside{
 }
 aside img{
     width: 100%;
-    height: 70%;
+    height: 20%;
     margin: 0%;    
 }
 header{
@@ -57,15 +57,16 @@ footer{
 }
 
 body{
+    border: none;
+    border-top: none;
     background-color: #6f0ad4;
     margin: 0%;
     display: grid;
-    gap: 15px;
     grid-template-areas:
-    "aside aside aside"
-    "header header header"
-    "main main main"
-    "footer footer footer";
+    "aside aside aside "
+    "header header header "
+    "main main main "
+    "footer footer footer ";
     grid-template-columns:auto auto auto;
     grid-template-rows:auto 60px auto auto;
 }
@@ -74,6 +75,7 @@ body{
     height: 710px;
 }
 .inicio{
+    border: 10px;
     right: 650px;
     bottom: 380px;
     position: relative;
@@ -87,8 +89,10 @@ body{
     color: rgb(0, 0, 0);
 }
 .texto{
+    border-radius: 20px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 60px;
+    width: 100%;
 }
 .itenpre{
     color: #6f0ad0;
