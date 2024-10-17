@@ -1,3 +1,9 @@
 header{
-    background-color: blue;
+    background-color: rgb(164, 100, 237);
+}
+footer{
+    background-color: rgb(137, 70, 199);
+}
+main{
+    background-color: rgb(136, 100, 237);
 }
