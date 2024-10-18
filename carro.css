@@ -1,19 +1,23 @@
-
-*{
+* {
+    /* Remove o preenchimento e as margens padrão de todos os elementos e define a fonte padrão */
     padding: 0;
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
-aside{
+
+aside {
     grid-area: aside;
-    margin:auto ;
+    margin: auto;
 }
-aside img{
+
+aside img {
     width: 100%;
     height: 20%;
-    margin: 0%;    
+    margin: 0%;
 }
-header{
+
+header {
+    /* Define o cabeçalho com posição relativa e cor de fundo */
     position: relative;
     background-color: #6f0ad0;
     width: 100%;
@@ -22,118 +26,140 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     top: -10px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color: white;  
+    color: white;
 }
-nav{
-    text-align: center ;
+
+nav {
+    /* Centraliza o texto no elemento de navegação */
+    text-align: center;
     align-items: center;
 }
-nav li{
 
+nav li {
     list-style: none;
     display: inline;
-    padding-left: 10px ;
+    padding-left: 10px;
 }
-.text{
+
+.text {
     position: relative;
     top: 40px;
 }
-main{
+
+main {
     background-color: white;
     grid-area: main;
 }
-footer{
+
+footer {
+    /* Define o estilo do rodapé*/
     grid-area: footer;
     background-color: #6f0ad0;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
     padding: 3px;
     width: 100%;
     height: 180px;
 }
 
-body{
+body {
+    /* Define o estilo do body e aplica um layout de grid */
     border: none;
-    border-top: none;
     background-color: #6f0ad4;
     margin: 0%;
     display: grid;
     grid-template-areas:
-    "aside aside aside "
-    "header header header "
-    "main main main "
-    "footer footer footer ";
-    grid-template-columns:auto auto auto;
-    grid-template-rows:auto 60px auto auto;
+        "aside aside aside"
+        "header header header"
+        "main main main"
+        "footer footer footer";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 60px auto auto;
 }
-.background{
+
+.background {
+    /* Define o tamanho da imagem de fundo */
     width: 100%;
     height: 710px;
 }
-.inicio{
-    border: 10px;
-    right: 650px;
-    bottom: 380px;
+
+.inicio {
+    /* Define o Estilo do botão de início, posição e tamanho */
     position: relative;
     color: white;
     background-color: #6f0ad0;
     width: 70px;
     height: 70px;
 }
-.preço{
+
+.preço {
     font-size: 40px;
     color: rgb(0, 0, 0);
 }
-.texto{
+
+.texto {
+    /* Alinha o texto e aplica bordas arredondadas */
     text-align: center;
-    margin-right: 50px;
     border-radius: 20px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 60px;
     width: 100%;
 }
-.itenpre{
+
+.itenpre {
+    /* Define o Estilo para os itens do veículo */
     color: #6f0ad0;
     position: relative;
     top: 20px;
     font-size: 40px;
 }
-.isso{
+
+.isso {
+    /*Define o Estilo do primeiro bloco de itens */
     position: relative;
     top: 90px;
     left: 30px;
     line-height: 27px;
 }
-.isso2{
+
+.isso2 {
+    /*Define o Estilo do segundo bloco de itens */
     position: relative;
     left: 900px;
     bottom: 176px;
     line-height: 27px;
 }
-.nome{
+
+.nome {
+    /* Define o Estilo para o nome do carro */
     position: absolute;
     left: 450px;
     top: 40px;
     font-size: 50px;
 }
-.car{
+
+.car {
+    /* Define a posição da imagem do carro */
     position: relative;
     left: 30%;
 }
-.frase0{
+
+.frase0, .frase1 {
     background-color: #6f0ad0;
     color: white;
-    border-radius: 10px 10px 0px 0px ;
 }
-.frasec{
-    color: rgb(155, 154, 154);
+
+.frase0 {
+    border-radius: 10px 10px 0px 0px;
 }
-.frase1{
+
+.frase1 {
     border-radius: 0px 0px 10px 10px;
-    background-color: #6f0ad0;
-    color: white;
+}
+
+.frasec {
+    color: rgb(155, 154, 154);
 }
