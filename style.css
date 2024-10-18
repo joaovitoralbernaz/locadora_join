@@ -109,6 +109,17 @@ body {
     align-items: center;
     flex-direction: row;
 }
+main h3{
+    text-align: center;
+    margin: 15px;
+}
+.maps{
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: rows;
+    display: flex;
+}
 .card {
     margin: 10px;
     width: 550px;

@@ -50,6 +50,7 @@ nav li {
 }
 
 main {
+    padding: 15px;
     background-color: white;
     grid-area: main;
 }
@@ -83,7 +84,7 @@ body {
 .background {
     /* Define o tamanho da imagem de fundo */
     width: 100%;
-    height: 710px;
+    height: 90%;
 }
 
 .inicio {
@@ -162,4 +163,26 @@ body {
 
 .frasec {
     color: rgb(155, 154, 154);
+}
+
+button {
+    /* Define o estilo do botão*/
+    border: none;
+
+    background-color: blueviolet;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
