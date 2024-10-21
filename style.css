@@ -3,20 +3,19 @@
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
-aside {
-    grid-area: aside;
-    margin: auto;
-}
-aside img {
-    /* Define o tamanho da imagem de fundo do aside */
-    width: 100%;
-    height: 70%;
-    margin: 0%;
-}
 header {
     margin: 0%;
-    background-color: #6f0ad4;
     grid-area: header;
+}
+header img {
+    width: 100%;
+    height: 100%;
+
+}
+aside {
+    margin: 10px;
+    background-color: #6f0ad4;
+    grid-area: aside;
 }
 nav a {
     text-decoration: none;
@@ -45,12 +44,17 @@ footer {
     width: 100%;
     height: 180px;
 }
-h1 {
+h2 {
+    font-size: 30px;
+    margin-top: 19px;
     text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-p {
+.text {
+    padding: 10px;
     font-size: 19px;
     text-align: center;
+    text-align: justify;
 }
 .galeria {
     margin-top: 50px;
@@ -83,6 +87,7 @@ p {
 .sub {
     color: #6f0ad0;
     text-align: center;
+    font-size: 19px;
 }
 body {
     /* Define layout como grid para a página */
@@ -91,12 +96,12 @@ body {
     display: grid;
     gap: 15px;
     grid-template-areas:
-        "aside aside aside"
         "header header header"
+        "aside aside aside"
         "main main main"
         "footer footer footer";
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto 60px auto auto;
+    grid-template-rows: auto auto auto auto;
 }
 .quemsomos {
     margin-left: 400px;
