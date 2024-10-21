@@ -8,10 +8,6 @@
 header{
     grid-area: cabeça;
 }
-/* Classifiquei o aside para o grid */
-aside{
-    grid-area: secundário;
-}
 /* Classifiquei o main para o grid */
 main{
     grid-area: principal;
@@ -26,7 +22,7 @@ body{
     gap: 15px;
     grid-template-areas:
     "cabeça cabeça cabeça"
-    "secundário principal principal"
+    "princial principal principal"
     "rodape rodape rodape";
     grid-template-columns: auto auto auto;
     grid-template-rows:auto auto auto;
@@ -36,7 +32,6 @@ body{
     body{
         grid-template-areas: 
         "cabeça"
-        "secundário"
         "principal"
         "rodape";
         grid-template-columns: 1fr;
