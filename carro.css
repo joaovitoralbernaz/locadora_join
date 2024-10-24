@@ -9,6 +9,9 @@ aside {
     grid-area: aside;
     margin: auto;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 aside img {
     height: 20%;
