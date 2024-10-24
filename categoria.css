@@ -27,9 +27,6 @@ body{
         grid-template-rows: auto auto auto auto;
     }
 }
-html{
-    scroll-behavior: smooth;
-}
 header{
     /* Estilizando o cabeçalho com fundo roxo e texto branco */
     
@@ -39,7 +36,6 @@ header{
     grid-area: cabeça;
     color: white;
 }
-
 main{
     background-color: white;
     grid-area: principal;
@@ -55,10 +51,15 @@ footer{
     width: 100%;
     height: 180px;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 h1{
     text-align: center;
-    margin-top: 29px;
+    margin-top: 50px;
+}
+ul{
+    margin-right: 50px;
 }
 aside {
     background-color: #6f0ad4;
