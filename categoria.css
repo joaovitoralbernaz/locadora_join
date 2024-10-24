@@ -1,41 +1,26 @@
 *{
-    padding: 0;
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* Classifiquei o header para o grid */
-header{
-    grid-area: cabeça;
-}
-/* Classifiquei o aside para o grid */
-aside{
-    grid-area: secundário;
-}
-/* Classifiquei o main para o grid */
-main{
-    grid-area: principal;
-}
-/* Classifiquei o footer para o grid */
-footer{
-    grid-area: rodape;
-}
 /* Responsividade */
 body{
+    background-color: #6f0ad0;
     display: grid;
     gap: 15px;
     grid-template-areas:
     "cabeça cabeça cabeça"
-    "secundário principal principal"
+    "secundario secundario secundario"
+    "principal principal principal"
     "rodape rodape rodape";
     grid-template-columns: auto auto auto;
-    grid-template-rows:auto auto auto;
+    grid-template-rows:100px auto auto auto;
 }
 /* Responsividade */
 @media screen and (max-width: 400px) {
     body{
         grid-template-areas: 
         "cabeça"
-        "secundário"
+        "secundario"
         "principal"
         "rodape";
         grid-template-columns: 1fr;
@@ -44,19 +29,21 @@ body{
 }
 header{
     /* Estilizando o cabeçalho com fundo roxo e texto branco */
+    
     margin: 0%;
     background-color: #6f0ad4;
-    grid-area: header;
+    text-align: center;
+    grid-area: cabeça;
     color: white;
 }
 
 main{
     background-color: white;
-    grid-area: main;
+    grid-area: principal;
 }
 
 footer{
-    grid-area: footer;
+    grid-area: rodape;
     background-color: #6f0ad0;
     color: white;
     text-align: center;
@@ -68,7 +55,25 @@ footer{
 
 h1{
     text-align: center;
-
+    margin-top: 29px;
+}
+aside {
+    background-color: #6f0ad4;
+    grid-area: secundario;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav {
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
 }
 
 p{
@@ -76,41 +81,11 @@ p{
     text-align: center;
 }
 
-.galeria{
-    /* Define o Estilo da galeria de imagens, espaçando e centralizando os elementos */
-    margin-top: 50px;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 250px;
-    margin-right: 250px;
-}
-
 img{
     /* Define tamanho padrão para imagens */
     width: 400px;
     height: 300px;
 }
-
-.img{
-    /* Classe específica para definir outro tamanho das imagens */
-    width: 500px;
-    height: 300px;
-}
-
-body{
-    background-color: #6f0ad4;
-    margin: 0%;
-    display: grid;
-    gap: 15px;
-    grid-template-areas:
-    "header header header"
-    "main main main"
-    "footer footer footer";
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-}
-
 .elementomae{
     /* Flexbox para organizar os cards de forma responsiva */
     display: flex;
