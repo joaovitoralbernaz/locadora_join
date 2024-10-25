@@ -34,29 +34,40 @@
                 <p class="text">Bem-vindo à Join, sua parceira de mobilidade! Somos uma locadora de carros focada em oferecer soluções inteligentes e acessíveis 
                      para todos os seus deslocamentos, sejam eles a negócios, lazer ou em ocasiões especiais.
                     Na Join, acreditamos que a liberdade de ir e vir não deve ser complicada. Por isso, nos dedicamos a proporcionar uma experiência simples, eficiente e personalizada. Com uma frota moderna e diversificada, composta por veículos que vão desde os mais econômicos até modelos de luxo, garantimos que você encontrará o carro ideal para cada necessidade.</p>
-                <p class="sub">VEM E REENCONTRE O PRAZER DE DIRIGIR!</p>
+                <p class="sub">VENHA E REENCONTRE O PRAZER DE DIRIGIR!</p>
             </div>
         </section>
         <br>
-        <section class="elementomae" id="frota">
-            <!-- Seção com os boxes de categorias de veículos -->
-
-            <div class="box">
-                <h4>GRUPO ECONÔMICO</h4>
-                <a href=""><img class="img" src="img/gol.png" alt=""></a>
-                <!-- Box do grupo econômico com imagem do veículo -->
+        <script src="carrossel.js"></script>
+        <div class="carousel" id="frota">
+            <div class="carousel-images">
+                <div class="carousel-item">
+                    <h3>GRUPO</h3>
+                    <a href="categoria.html"><img src="img/bmw.png" alt="BMW"></a>
+                </div>
+                <div class="carousel-item">
+                    <h3>GRUPO</h3>
+                    <img src="img/bmw 320.png" alt="BMW 320">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/bmw 320 i.png" alt="BMW 320i">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/bmw 420 i.png" alt="BMW 420i">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/gol.png" alt="GOL">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/porsche.png" alt="porsche">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/fiat.png" alt="FIAT">
+                </div>
             </div>
-            <div class="box">
-                <h4>GRUPO SUV</h4>
-                <img class="img" src="img/fiat.png" alt="">
-                <!-- Box do grupo SUV com imagem do veículo -->
-            </div>
-            <div class="box">
-                <h4>GRUPO LUXO</h4>
-                <a href="categoria.html"><img class="img" src="img/bmw.png" alt=""></a>
-                <!-- Box do grupo luxo com link para outra página -->
-            </div>
-        </section>
+            <button class="carousel-control prev" onclick="moveCarousel(-1)">&#10094;</button>
+            <button class="carousel-control next" onclick="moveCarousel(1)">&#10095;</button>
+        </div>
         <br>
         <h3>LOCAL DA SEDE</h3>
         <section class="elementomae">
