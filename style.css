@@ -178,15 +178,15 @@ p{
 
 /* Botões de navegação */
 .carousel-control {
-    border-radius: 10px;
+    border-radius: 20px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #42007f91;
+    background-color: #5a5a5a91;
     border: none;
     color: white;
-    font-size: 30px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 9px;
     cursor: pointer;
     z-index: 1;
 }
