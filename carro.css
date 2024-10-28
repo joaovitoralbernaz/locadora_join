@@ -127,7 +127,7 @@ body {
 .nome {
     /* Define o Estilo para o nome do carro */
     position: absolute;
-    left: 450px;
+    left: 460px;
     top: 40px;
     font-size: 50px;
 }
@@ -135,7 +135,7 @@ body {
 .car {
     /* Define a posição da imagem do carro */
     position: relative;
-    left: 33%;
+    left: 32%;
 }
 
 .frase0, .frase1 {
