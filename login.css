@@ -43,7 +43,7 @@ body{
 
 div {
     /* Centralizando o formulário de login na tela com um fundo preto */
-    background-color: rgba(18, 0, 29, 0.973);
+    background-color: rgb(0, 0, 0);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -70,7 +70,7 @@ button {
     /* Define o estilo do botão de login */
     color: white;
     text-decoration: none;
-    background-color: #5012A6;
+    background-color: #531abe;
     border: none;
     padding: 15px;
     width: 100%;
@@ -80,6 +80,6 @@ button {
 
 button:hover {
     /* Define o estilo do botão ao passar o mouse, com uma transição suave de cor */
-    background-color: #620DD9;
+    background-color: #531abe;
     transition: 0.5s;
 }
