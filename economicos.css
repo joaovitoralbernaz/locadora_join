@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Responsividade */
+body{
+    background-color: #6f0ad0;
+    display: grid;
+    gap: 15px;
+    grid-template-areas:
+    "cabeça cabeça cabeça"
+    "secundario secundario secundario"
+    "principal principal principal"
+    "rodape rodape rodape";
+    grid-template-columns: auto auto auto;
+    grid-template-rows:100px auto auto auto;
+}
+/* Responsividade */
+@media screen and (max-width: 400px) {
+    body{
+        grid-template-areas: 
+        "cabeça"
+        "secundario"
+        "principal"
+        "rodape";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+}
+header{
+    /* Estilizando o cabeçalho com fundo roxo e texto branco */
+    
+    margin: 0%;
+    background-color: #6f0ad4;
+    text-align: center;
+    grid-area: cabeça;
+    color: white;
+}
+main{
+    background-color: white;
+    grid-area: principal;
+}
+
+footer{
+    grid-area: rodape;
+    background-color: #6f0ad0;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    width: 100%;
+    height: 180px;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+ul{
+    margin-right: 50px;
+}
+aside {
+    background-color: #6f0ad4;
+    grid-area: secundario;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav {
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+p{
+    font-size: 19px;
+    text-align: center;
+}
+
+img{
+    /* Define tamanho padrão para imagens */
+    width: 400px;
+    height: 300px;
+}
+.elementomae{
+    /* Flexbox para organizar os cards de forma responsiva */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+div{
+    /* Define o estilo dos cards */
+    margin: 10px;
+    width: 550px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.322);
+    border-color: 10px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 0.1px rgba(0, 0, 0, 0.26) solid;
+}
+
+.sobre{
+    /* Descrição do produto */
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.card img{  
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+    margin: 10px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #8000ff;
+    border: none;
+    margin-top: 10px;
+}
+button a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
