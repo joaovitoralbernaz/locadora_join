@@ -4,7 +4,7 @@
 }
 /* Responsividade */
 body{
-    background-color: #6f0ad0;
+    background-color: #4a078a;
     display: grid;
     gap: 15px;
     grid-template-areas:
@@ -43,7 +43,7 @@ main{
 
 footer{
     grid-area: rodape;
-    background-color: #6f0ad0;
+    background-color: #4a078a;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -62,7 +62,7 @@ ul{
     margin-right: 50px;
 }
 aside {
-    background-color: #6f0ad4;
+    background-color: #4a078a;
     grid-area: secundario;
 }
 nav a {

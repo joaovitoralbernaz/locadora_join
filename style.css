@@ -16,7 +16,7 @@ aside {
     padding: 25px;
     margin-top: -5px;
     margin-bottom: 35px;
-    background-color: #6f0ad4;
+    background-color: #4a078a;
     grid-area: aside;
 }
 nav a {
@@ -38,7 +38,7 @@ main {
 }
 footer {
     grid-area: footer;
-    background-color: #6f0ad0;
+    background-color: #4a078a;
     color: white;
     text-align: center;
     padding: 3px;
@@ -119,7 +119,7 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-
+    
 
 }
 .elementomae {
