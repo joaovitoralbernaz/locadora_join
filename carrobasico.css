@@ -1,0 +1,187 @@
+* {
+    /* Remove o preenchimento e as margens padrão de todos os elementos e define a fonte padrão */
+    padding: 0;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside {
+    grid-area: aside;
+    margin: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+aside img {
+    height: 20%;
+    margin: 0%;
+}
+
+header {
+    /* Define o cabeçalho com posição relativa e cor de fundo */
+    bottom: 25px;
+    right: 18px;
+    height: 30px;
+    font-size: 21px;
+    position: relative;
+    background-color: #6f0ad0;
+    grid-area: header;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    /* Centraliza o texto no elemento de navegação */
+    text-align: center;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+.text {
+    position: relative;
+    top: 40px;
+}
+
+main {
+    padding: 15px;
+    background-color: white;
+    grid-area: main;
+}
+
+footer {
+    /* Define o estilo do rodapé*/
+    grid-area: footer;
+    background-color: #6f0ad0;
+    color: white;
+    text-align: center;
+    padding: 3px;
+
+}
+
+body {
+    /* Define o estilo do body e aplica um layout de grid */
+    border:green solid 2px;
+    background-color: #6f0ad4;
+    margin: 0%;
+    gap: 15px;
+    display: grid;
+    grid-template-areas:
+        "aside"
+        "header"
+        "main"
+        "footer";
+    grid-template-columns: auto;
+    grid-template-rows: auto 60px auto auto;
+}
+.background{
+    /* Define o tamanho da imagem de fundo */
+    position: relative;
+    width: 100%;
+    height:100%;
+    right: 18px;
+}
+
+.inicio {
+    /* Define o Estilo do botão de início, posição e tamanho */
+    position: relative;
+    color: white;
+    background-color: #6f0ad0;
+    width: 70px;
+    height: 70px;
+}
+
+.preço {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.texto {
+    /* Alinha o texto e aplica bordas arredondadas */
+    text-align: center;
+    border-radius: 20px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 60px;
+    width: 100%;
+}
+
+.itenpre {
+    /* Define o Estilo para os itens do veículo */
+    color: #6f0ad0;
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+}
+
+.isso {
+    /*Define o Estilo do primeiro bloco de itens */
+    position: relative;
+    top: 14px;
+    left: 20px;
+    line-height: 30px;
+    font-size: 23px;
+    margin: 7px;
+}
+.nome {
+    /* Define o Estilo para o nome do carro */
+    position: absolute;
+    left: 460px;
+    top: 40px;
+    font-size: 50px;
+}
+
+.car {
+    /* Define a posição da imagem do carro */
+    position: relative;
+    left: 25%;
+    width: 900px;
+    height: 600px;
+}
+
+.frase0, .frase1 {
+    background-color: #6f0ad0;
+    color: white;
+}
+
+.frase0 {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.frase1 {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.frasec {
+    color: rgb(155, 154, 154);
+}
+
+button {
+    /* Define o estilo do botão*/
+    border: none;
+    background-color: blueviolet;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
