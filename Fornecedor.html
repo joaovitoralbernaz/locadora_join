@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Estoque - Farmácia</title>
+    <link rel="stylesheet" href="Fornecedor.css">
+</head>
+<body>
+    <header>
+        <div class="logo" id="Farmasic" >Farmasic</div>
+        <div class="tabs">
+            <div class="tab active" onclick="openTab('cadastro')">CADASTRO</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Conteúdo da aba CADASTRO -->
+        <div id="cadastro" class="content active">
+            <h2>Cadastro de Fornecedores</h2>
+            <div class="form-group">
+                <label for="codigo">Data:</label>
+                <input type="text" id="codigo" placeholder="Digite a Data">
+            </div>
+            <div class="form-group">
+                <label for="codigo">CNPJ:</label>
+                <input type="text" id="codigo" placeholder="Digite o CNPJ">
+            </div>
+            <div class="form-group">
+                <label for="nome">Nome do Fornecedor:</label>
+                <input type="text" id="nome" placeholder="Digite o Nome do Fornecedor">
+            </div>
+            <div class="form-group">
+                <label for="descricao">Observação:</label>
+                <input type="text" id="Quantidade" placeholder="Digite a Observação">
+            </div>
+            <div class="form-group">
+                <label for="descricao">Quantidade:</label>
+                <input type="text" id="Quantidade" placeholder="Digite a Quantidade">
+            </div>
+            <div class="form-group">
+                <label for="categoria">Categoria:</label>
+                <select id="categoria">
+                    <option value="">Selecione uma categoria</option>
+                    <option value="medicamento">Medicamento</option>
+                    <option value="higiene">Higiene</option>
+                    <option value="cosmetico">Cosmético</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </div>
+            <button>Cadastrar Fornecedor</button>
+        <h2 style="margin-top: 30px;">Últimos Fornecedores</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>CNPJ</th>
+                        <th>Nome do Fornecedor</th>
+                        <th>Observação</th>
+                        <th>Quantidade</th>
+                        <th>Categoria</th>
+                    </tr>
+                </thead>
+                <tbody class="Flexlast">
+                    <tr>
+                        <td>10/05/2023</td>
+                        <td>61.186.680/0001-74</td>
+                        <td>SEABIOTECH</td>
+                        <td>Vence 17/05/2025</td>
+                        <td>20 caixas 10mg, 5 comprimido p/ cartela </td>
+                        <td>Medicamento</td>
+                    </tr>
+                    <tr>
+                        <td>09/11/2023</td>
+                        <td>55.182.441/0001-21</td>
+                        <td>NeoQuímica</td>
+                        <td>Vence 20/12/2027</td>
+                        <td>100 caixas 5mg, 10 comprimidos p/ cartela</td>
+                        <td>Medicamento</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+</body>
+</html>
